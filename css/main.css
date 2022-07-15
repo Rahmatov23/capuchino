@@ -102,7 +102,6 @@ img {
 
 .section__cofe {
   content: "";
-  background: url(../img/Bitmar.png) no-repeat;
   padding: 32px 0px;
   border-radius: 15px;
   background-size: cover;
@@ -168,7 +167,7 @@ img {
   list-style: none;
   display: flex;
   font-family: "Fraunces" sans-serif;
-  margin-top: 300px;
+  margin-top: -30px;
 }
 
 .number__item {
@@ -367,7 +366,7 @@ img {
 }
 
 .foot__img {
-  padding: 47px 0px 48px 117px;
+  padding: 50px 0px 50px 43px;
   display: flex;
 }
 
@@ -428,7 +427,7 @@ svg:hover path {
 }
 
 .section2 {
-  background-image: url(../img/bit/);
+  background-image: url(../img/Bitmap.png);
   padding: 32px 0px;
   border-radius: 15px;
   background-size: cover;
@@ -444,6 +443,8 @@ svg:hover path {
 
 .text p {
   padding-top: 50px;
+  line-height: 30px;
+  font-family: "Barlow" sans-serif;
 }
 
 .box {
@@ -537,29 +538,33 @@ svg:hover path {
   padding-top: 50px;
 }
 
-.work {
+.bro {
   margin-top: 350px;
   color: #83888F;
+  margin-left: 85px;
+  font-family: "Fraunces", sans-serif;
 }
 
-.orange {
+.oranges {
   border: 1px solid #FDD6BA;
   width: 760px;
   height: 1px;
   text-align: center;
   align-items: center;
-  margin: 95px 495px 67px 180px;
+  margin: 95px 495px 67px 90px;
+  font-family: "Fraunces", sans-serif;
 }
 
-.orange ul > li {
+.oranges ul > li {
   border: 1px solid green;
   border-radius: 50%;
   width: 31px;
   height: 31px;
   align-items: center;
+  font-family: "Fraunces", sans-serif;
 }
 
-.orange ul {
+.oranges ul {
   display: flex;
   list-style: none;
   justify-content: space-between;
@@ -568,13 +573,19 @@ svg:hover path {
 }
 
 .li {
-  margin-left: -50px;
+  margin-left: -42px;
+  margin-top: -30px;
+  font-family: "Fraunces", sans-serif;
 }
 
 .number ul {
   list-style: none;
   display: flex;
   font-family: "Fraunces" sans-serif;
+}
+
+.number {
+  margin-top: 40px;
 }
 
 .number li {
@@ -620,61 +631,47 @@ svg:hover path {
   background-color: #66D2CF;
 }
 
-.color {
-  border: 1px solid #66D2CF;
-  width: 1200px;
+.foot {
+  border: 1px solid #2C343E;
+  width: 1250px;
   height: 120px;
-  margin-top: 200px;
   background-color: #2C343E;
-  align-items: center;
+  margin-top: 100px;
+  justify-content: space-between;
   display: flex;
 }
 
-.color img {
-  height: 236px;
-  height: 26px;
-  margin-top: 40px;
-  padding-left: 70px;
-}
-
-.color ul {
+.foot__img {
+  padding: 51px 0px 50px 43px;
   display: flex;
-  list-style: none;
-  color: white;
-}
-
-.color li {
-  padding: 32px;
-  margin-top: 39px;
-  color: #83888F;
-  font-size: 12px;
-}
-
-.net li {
-  padding: 5px;
-  margin-bottom: 35px;
 }
 
 svg:hover path {
   fill: #FDD6BA;
 }
 
-.net2 {
-  margin-bottom: -50px;
+.foot__list {
+  display: flex;
+  list-style: none;
+  padding-left: 50px;
 }
 
-.net li {
-  align-items: center;
-  justify-content: center;
-  justify-content: space-between;
+.foot__item {
+  margin-top: 30px;
+  margin-right: 50px;
 }
 
-.net {
-  margin-left: 100px;
+.home__list {
+  display: flex;
+  list-style: none;
+  padding: 30px;
+  margin-left: -100x;
 }
 
-.plan:hover {
-  color: white;
+.home__item {
+  padding-left: 20px;
+  color: #83888F;
+  margin-top: 10px;
 }
 
 .container {
@@ -842,7 +839,7 @@ svg:hover path {
 }
 
 .foot__img {
-  padding: 47px 0px 48px 117px;
+  padding: 50px 0px 50px 43px;
   display: flex;
 }
 
