@@ -1,0 +1,40 @@
+.foot{
+    border: 1px solid #2C343E;
+    width: 1250px;
+    height: 120px;
+    background-color: #2C343E;
+    margin-top: 100px;
+    justify-content: space-between;display: flex;
+    
+}
+.foot__img{
+   padding: 47px 0px 48px 117px;
+   display: flex;
+}
+svg:hover path {
+    fill: #FDD6BA;
+}
+.foot__list{
+display: flex;
+list-style: none;
+padding-left: 50px;
+
+}
+.foot__item{
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.home__list{
+    display: flex;
+    list-style: none;
+    padding: 30px;
+    margin-left: -100x;
+}
+.home__item{
+    padding-left: 20px  ;
+    color: 
+    #83888F;
+    margin-top: 10px;
+  
+    
+}
