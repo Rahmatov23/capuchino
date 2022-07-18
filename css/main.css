@@ -102,6 +102,7 @@ img {
 
 .section__cofe {
   content: "";
+  background: url(../img/Bitmap@2x.png) no-repeat;
   padding: 32px 0px;
   border-radius: 15px;
   background-size: cover;
@@ -427,7 +428,7 @@ svg:hover path {
 }
 
 .section2 {
-  background-image: url(../img/Bitmap.png);
+  background-image: url(../../img/Bitmap1@2x.png);
   padding: 32px 0px;
   border-radius: 15px;
   background-size: cover;
@@ -455,7 +456,7 @@ svg:hover path {
 
 .our {
   position: relative;
-  content: url(./img/Group\ 13.png);
+  content: url(../img/Group13.png);
   text-align: center;
   align-items: center;
   padding: 0 100px;
@@ -484,7 +485,7 @@ svg:hover path {
 }
 
 .black {
-  margin-top: 300PX;
+  margin-top: 400PX;
   border: 1px solid black;
   width: 1260px;
   height: 577px;
@@ -705,7 +706,7 @@ svg:hover path {
 
 .section__cofe {
   content: "";
-  background: url(../img/Bitmap1.png) no-repeat;
+  background: url(../img/Bitmap@2x.png) no-repeat;
   padding: 32px 0px;
   border-radius: 15px;
   margin-top: 70px;
@@ -747,11 +748,15 @@ svg:hover path {
   color: #333D4B;
   margin-left: 550px;
   font-family: "Fraunces", sans-serif;
+  line-height: 25px;
 }
 
 .barman {
-  background-image: url("../img/Bitmap2.png");
+  background-image: url("../../img/barmen@2x.jpg");
   background-repeat: no-repeat;
+  width: 485px;
+  height: 606px;
+  background-size: 100% 100%;
 }
 
 .capuchino {
@@ -761,12 +766,17 @@ svg:hover path {
   margin-top: 100px;
 }
 .capuchino__box::after {
-  content: url(../img/Bitmap3.png);
+  content: "";
+  background-image: url(../../img/Bit@2x.jpg);
+  background-repeat: no-repeat;
   position: absolute;
   display: flex;
   margin-left: 622px;
   margin-top: -160px;
   border-radius: 10px;
+  width: 450px;
+  height: 470px;
+  background-size: 100% 100%;
 }
 .capuchino__box {
   position: relative;
