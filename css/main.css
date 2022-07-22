@@ -671,8 +671,12 @@ svg:hover path {
 
 .home__item {
   padding-left: 20px;
-  color: #83888F;
   margin-top: 10px;
+}
+
+.home__item > a {
+  text-decoration: none;
+  color: #83888F;
 }
 
 .container {
